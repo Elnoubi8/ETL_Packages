@@ -1,0 +1,9 @@
+Build a report as per format given and Automate the procees to run on daily basis.
+First source file will be places in soucrefolder on daily 8.00 AM.
+source file format StatePaymentNumbers_YYYYMMDD.csv
+Using above soucre file to build a report as per format given below.
+Report Header:
+State | Total Number Less Than National Payment | Total Number Same as National Payment 
+Report File Name Must contain title and date as format:StatePaymentSummaryView_YYYYMMDD.txt
+Report Delivey method : Shared in Target folder
+Schedule Time : Daily @ 9 am  
